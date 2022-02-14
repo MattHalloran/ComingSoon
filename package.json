@@ -1,0 +1,59 @@
+{
+    "name": "ui",
+    "author": "Vrooli",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "type": "module",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.0.0-next.10",
+        "@emotion/styled": "^11.0.0-next.19",
+        "@mui/icons-material": "^5.3.1",
+        "@mui/material": "^5.3.1",
+        "@mui/styles": "^5.3.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-scripts": "^4.0.1",
+        "typescript": "^4.4.4",
+        "web-vitals": "^2.1.0",
+        "workbox-background-sync": "^6.3.0",
+        "workbox-broadcast-update": "^6.3.0",
+        "workbox-cacheable-response": "^6.3.0",
+        "workbox-core": "^6.3.0",
+        "workbox-expiration": "^6.3.0",
+        "workbox-google-analytics": "^6.3.0",
+        "workbox-navigation-preload": "^6.3.0",
+        "workbox-precaching": "^6.3.0",
+        "workbox-range-requests": "^6.3.0",
+        "workbox-routing": "^6.3.0",
+        "workbox-strategies": "^6.3.0",
+        "workbox-streams": "^6.3.0",
+        "wouter": "^2.8.0-alpha.2"
+    },
+    "scripts": {
+        "build": "react-scripts build",
+        "start-development": "react-scripts --max_old_space_size=8128 start",
+        "start-production": "serve -s build -l 3000",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "analyze": "source-map-explorer build/static/js/*"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.29",
+        "eslint-plugin-react": "^7.24.0",
+        "source-map-explorer": "^2.5.2"
+    }
+}
